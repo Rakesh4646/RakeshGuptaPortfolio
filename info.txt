@@ -1,0 +1,25 @@
+#4863A0
+
+list-style: none;
+display: inline-block;
+height: 100vh;
+transition: color 0.3s ease;
+content: "\f00d";
+object-fit: cover;
+flex-wrap: wrap;
+object-fit: cover;
+border-radius: 50%;
+justify-content: space-between;
+cursor: pointer;
+display: none;
+opacity: 0;
+opacity: 1;
+pointer-events: auto;
+width: calc(33% - 20px);
+.skills-content .right .html::before
+::after
+flex-direction: column;
+outline: none !important;
+border-radius: 50%;
+border: 2px solid  #4863A0 !important;
+display: block;
